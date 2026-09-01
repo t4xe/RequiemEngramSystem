@@ -1,0 +1,51 @@
+name: ViridyaSistemleri
+version: 1.0
+main: me.t4xe.ViridyaSistemleri
+api-version: 1.20
+softdepend: [Oraxen]
+commands:
+  vsreload:
+    description: ViridyaSistemleri eklentisini yeniler.
+    usage: /vsreload
+    permission: v.reload
+  egkır:
+    description: Engram kırma komutu.
+    usage: /egkır <engram>
+    permission: v.admin
+  egver:
+    description: Engram verme komutu.
+    usage: /egver <isim> <engram>
+    permission: v.egver
+  besyaver:
+    description: Başka özel eşya verme komutu.
+    usage: /besyaver <isim> <eşya>
+    permission: v.besyaver
+  dilektut:
+    description: Dilek tutma komutu.
+    usage: /dilektut <isim>
+    permission: v.dilektut
+
+permissions:
+  v.reload:
+    description: Config reload yetkisi.
+    default: op
+
+  v.admin:
+    description: ViridyaSistemleri admin yetkisi.
+    default: op
+
+  v.egver:
+    description: Engram verme yetkisi.
+    default: op
+
+  v.egkir:
+    description: Engram kırma yetkisi.
+    default: op
+
+  v.besyaver:
+    description: Başka özel eşya verme yetkisi.
+    default: op
+
+  v.dilektut:
+    description: Dilek tutma yetkisi.
+    default: op

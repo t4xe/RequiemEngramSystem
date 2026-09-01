@@ -1,0 +1,139 @@
+engram-chance:
+  piado: 0.01
+  delmas: 0.03
+  rogue: 0.02
+  ultimatum: 0.05
+  viridya: 0.0000001
+  requiem: 0.009
+
+engram-boosts:
+  engram.boost.1_5x: 1.5
+  engram.boost.2x: 2.0
+  engram.boost.3x: 3.0
+
+essence:
+  base-chance: 0.1
+  amount: 10
+
+essence-boosts:
+  essence.boost.1_5x: 1.5
+  essence.boost.2x: 2.0
+  essence.boost.3x: 3.0
+
+engram-rewards:
+  piado:
+    reward1:
+      chance: 3
+      command: "excellenteconomy:viridyacoin give %player% 1"
+
+    reward2:
+      chance: 4
+      command: "give %player% netherite_ingot 1"
+      message: "<gradient:#aacb61:#a4e1a1>Viridya</gradient> <#1D691C>➙ <#3ACBAE>Envanterine 1 adet <#248673>Netherite Külçesi <#3ACBAE>eklendi."
+
+    reward3:
+      chance: 2
+      command: "crate key give %player% altinanahtar 2"
+
+    reward4:
+      chance: 3
+      command: "excellenteconomy:florin give %player% 2000"
+
+    reward5:
+      chance: 6
+      command: "give %player% diamond 4"
+      message: "<gradient:#aacb61:#a4e1a1>Viridya</gradient> <#1D691C>➙ <#3ACBAE>Envanterine 4 adet <#248673>Elmas <#3ACBAE>eklendi."
+
+  delmas:
+    reward1:
+      chance: 20
+      command: "excellenteconomy:esans give %player% 50"
+
+    reward2:
+      chance: 40
+      command: "give %player% diamond 4"
+      message: "<gradient:#aacb61:#a4e1a1>Viridya</gradient> <#1D691C>➙ <#3ACBAE>Envanterine 4 adet <#248673>Elmas <#3ACBAE>eklendi."
+
+    reward3:
+      chance: 60
+      command: "crate key give %player% demiranahtar 1"
+
+    reward4:
+      chance: 90
+      command: "excellenteconomy:florin give %player% 500"
+
+    reward5:
+      chance: 100
+      command: "give %player% totem_of_undying 1"
+      message: "<gradient:#aacb61:#a4e1a1>Viridya</gradient> <#1D691C>➙ <#3ACBAE>Envanterine 1 adet <#248673>Ölümsüzlük Totemi <#3ACBAE>eklendi."
+
+  rogue:
+    reward1:
+      chance: 20
+      command: "excellenteconomy:esans give %player% 50"
+
+    reward2:
+      chance: 40
+      command: "give %player% emerald 16"
+      message: "<gradient:#aacb61:#a4e1a1>Viridya</gradient> <#1D691C>➙ <#3ACBAE>Envanterine 16 adet <#248673>Zümrüt <#3ACBAE>eklendi."
+
+    reward3:
+      chance: 60
+      command: "crate key give %player% demiranahtar 1"
+
+    reward4:
+      chance: 90
+      command: "excellenteconomy:florin give %player% 500"
+
+    reward5:
+      chance: 100
+      command: "give %player% golden_apple 3"
+      message: "<gradient:#aacb61:#a4e1a1>Viridya</gradient> <#1D691C>➙ <#3ACBAE>Envanterine 3 adet <#248673>Altın Elma <#3ACBAE>eklendi."
+
+  requiem:
+    reward1:
+      chance: 30
+      command: "excellenteconomy:esans give %player% 100"
+
+    reward2:
+      chance: 60
+      command: "give %player% paper 1"
+      message: "<gradient:#aacb61:#a4e1a1>Viridya</gradient> <#1D691C>➙ <#3ACBAE>Envanterine 1 adet <#248673>Requiem Parşomeni <#3ACBAE>eklendi."
+
+    reward3:
+      chance: 100
+      command: "give %player% paper 1"
+      message: "<gradient:#aacb61:#a4e1a1>Viridya</gradient> <#1D691C>➙ <#3ACBAE>Envanterine 1 adet <#248673>Dilek Taşı <#3ACBAE>eklendi."
+
+  ultimatum:
+    reward1:
+      chance: 10
+      command: "excellenteconomy:viridyacoin give %player% 5"
+
+    reward2:
+      chance: 50
+      command: "give %player% netherite_ingot 3"
+      message: "<gradient:#aacb61:#a4e1a1>Viridya</gradient> <#1D691C>➙ <#3ACBAE>Envanterine 3 adet <#248673>Netherite Külçesi <#3ACBAE>eklendi."
+
+    reward3:
+      chance: 100
+      command: "excellenteconomy:kristal give %player% 120"
+
+  viridya:
+    reward1:
+      chance: 25
+      command: "excellenteconomy:viridyacoin give %player% 5"
+
+    reward2:
+      chance: 60
+      command: "give %player% netherite_ingot 8"
+      message: "<gradient:#aacb61:#a4e1a1>Viridya</gradient> <#1D691C>➙ <#3ACBAE>Envanterine 8 adet <#248673>Netherite Külçesi <#3ACBAE>eklendi."
+
+    reward3:
+      chance: 100
+      command: "excellenteconomy:kristal give %player% 180"
+
+  dilek_tasi:
+    reward1:
+      chance: 100
+      command: "excellenteconomy:viridyacoin give %player% 5"
